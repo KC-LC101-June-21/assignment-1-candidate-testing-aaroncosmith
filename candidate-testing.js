@@ -67,6 +67,7 @@ Correct Answer: ${correctAnswers[4]}
 >>> Overall Grade: ${grade}% (${rightAnswerCounter} of ${questions.length} responses correct) <<<
 >>> Status: ${status} <<<
 `)
+return grade;
 }
 
 function runProgram() {
